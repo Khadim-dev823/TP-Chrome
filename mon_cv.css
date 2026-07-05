@@ -1,6 +1,11 @@
 body {
     width: 70%;
-    margin-left: 15%;
+    margin: 0 auto; 
+    background-image: url("image.png"); 
+    background-repeat: no-repeat;       
+    background-size: cover;             
+    background-attachment: fixed;       
+    background-position: center;        
 }
 
 header {
@@ -8,11 +13,13 @@ header {
     border-top: 10px solid #668CD8;
     border-bottom: 10px solid #668CD8;
     background-color: #E8EFF7;
+    padding: 20px; 
 }
 
 #adresse {
     text-align: left;
     font-family: monospace;
+    margin-top: 15px;
 }
 
 header img {
@@ -25,12 +32,14 @@ article {
     border-bottom: 10px solid #668CD8;
     margin-top: 30pt;
     background-color: #E8EFF7;
+    padding: 15px; 
 }
 
 article h1 {
     color: #385CA8;
     font-variant: small-caps;
     padding: 10px;
+    margin: 0;
 }
 
 .annee {
@@ -43,6 +52,7 @@ article h1 {
 
 dt {
     font-weight: bold;
+    margin-top: 10px;
 }
 
 footer {
@@ -52,4 +62,6 @@ footer {
     border-top: 10px solid #688CD8;
     border-bottom: 1px solid #688CD8;
     margin-top: 4em;
+    background-color: #E8EFF7; 
+    padding: 5px;
 }
